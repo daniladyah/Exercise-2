@@ -12,6 +12,9 @@ namespace Exercise_2
         private int[] Danila = new int[40];
         //variabel ukuran array
         private int n;
+        //fungsi untuk menginputkan ukuran array
+        public void read()
+        { }
         static void Main(string[] args)
         {
         }
