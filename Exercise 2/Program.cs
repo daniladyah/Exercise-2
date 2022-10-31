@@ -37,6 +37,16 @@ namespace Exercise_2
                 string s1 = Console.ReadLine();
                 Danila[i] = Int32.Parse(s1);
             }
+        }
+        public void display()
+        {
+            //display the shorted array
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(" Shorted array elements ");
+            Console.WriteLine("-----------------------------------");
+            for (int DD = 0; DD < n; DD++)
+        }
         static void Main(string[] args)
         {
         }
