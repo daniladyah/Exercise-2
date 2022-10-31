@@ -10,6 +10,7 @@ namespace Exercise_2
     {
         //definidikan array dengan ukuran maksimum 40
         private int[] Danila = new int[40];
+
         static void Main(string[] args)
         {
         }
