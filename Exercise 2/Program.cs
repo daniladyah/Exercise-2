@@ -23,11 +23,20 @@ namespace Exercise_2
                 if (n <= 40)
                     break;
                 else
-                    Console.WriteLine("\nArray dapat mempunyai maksimal 40 elemen.\n");
-
-
+                    Console.WriteLine("\nArray maksimum 40 element/data.\n");
             }
-        }
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine(" Masukkan element array ");
+            Console.WriteLine("-----------------------");
+
+            // user inputs for the array
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                Danila[i] = Int32.Parse(s1);
+            }
         static void Main(string[] args)
         {
         }
